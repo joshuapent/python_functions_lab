@@ -15,11 +15,24 @@ def sum_to(n):
 #2 
 
 # def largest(*args):
-#     for arg in args:
+#     for arg in args: 
+#         print(max(arg))
+
+def largest(*args):
+    placeholder = None
+    idx = 0
+    for arg in args: 
+        print(arg[idx])
+        idx += 1
+
         
 
 
-# one = largest([1, 2, 3, 4, 0])  
+
+one = largest([1, 2, 3, 4, 0])  
 # two = largest([10, 4, 2, 231, 91, 54])  
 
-# print(f"one: {one}, two: {two}")
+# one = largest(1, 2)
+
+
+print(f"one: {one}, two: {one}")
